@@ -107,10 +107,10 @@ async def button(bot, update):
             start_time = time.time()
             await bot.send_document(
                 chat_id=update.message.chat.id,
-                document=current_file_name,
-                # thumb=thumb_image_path,
-                caption=file_content,
-                # reply_markup=reply_markup,
+                document=new_file_name,
+                 thumb=thumb_image_path,
+                caption=file_name,
+                 reply_markup=reply_markup,
                 reply_to_message_id=update.message.message_id,
                 progress=progress_for_pyrogram,
                 progress_args=(
