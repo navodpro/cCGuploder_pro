@@ -56,7 +56,7 @@ async def generate_custom_thumbnail(bot, update):
                 await bot.send_photo(
                     chat_id=update.chat.id,
                     photo=save_final_image,
-                    caption=Translation.CUSTOM_CAPTION_UL_FILE,
+                    caption=Translation.file_name,
                     reply_to_message_id=update.message_id
                 )
             else:
