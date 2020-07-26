@@ -2,7 +2,7 @@ class Translation(object):
     START_TEXT = """Hello,
 This is a Telegram URL Upload Bot made by @Cinemaglitz
 
-<b>Please send me any Direct download URL link, I can upload to telegram as File/Video</b>
+This is only for @cgliz admins
 
 /help for more details..
 
@@ -40,8 +40,6 @@ Expires on: 31/12/2020"""
     
 Sorry! This is only for cinemaglitz users 
    
-
-
 Support Group : @Cglitz
 © @Cinemaglitz"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
